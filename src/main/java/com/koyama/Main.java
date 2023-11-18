@@ -5,5 +5,9 @@ public class Main {
         Dog dog = new Dog("ポチ", 3);
         System.out.println(dog.getName());
         System.out.println(dog.getAge());
+
+        Dog dog2 = new Dog("ハチ", 5);
+        System.out.println(dog2.getName());
+        System.out.println(dog2.getAge());
     }
 }
